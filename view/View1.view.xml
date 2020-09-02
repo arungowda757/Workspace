@@ -1,0 +1,9 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="callNS.view.View1"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+			<Button id="ddToContact" icon="sap-icon://add-contact" tooltip="dd to Contacts" press="addToContacts()"></Button>
+			<Button id="callContact" icon="sap-icon://outgoing-call" tooltip="Call Contact" press="callContact"></Button>
+		</content>
+	</Page>
+</core:View>
